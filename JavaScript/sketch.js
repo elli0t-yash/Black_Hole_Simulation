@@ -18,10 +18,12 @@ function setup() {
   for(let y = 0; y < start; y += 10) {
     particles.push(new Photon(width - 20, y));
   }
+
+  bg = loadImage('pexels-hristo-fidanov-1252890.jpg');
 }
 
 function draw() {
-  background(220);
+  background(bg);
   
   stroke(0);
   strokeWeight(1);

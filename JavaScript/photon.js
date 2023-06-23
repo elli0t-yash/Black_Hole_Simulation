@@ -30,7 +30,7 @@ class Photon {
   
   show() {
     strokeWeight(4);
-    stroke(255, 0, 0);
+    stroke(255, 255, 255);
     point(this.pos.x, this.pos.y);
     
     strokeWeight(2);
