@@ -128,7 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BlackHole.cpp" />
-    <ClCompile Include="opengl_basic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
