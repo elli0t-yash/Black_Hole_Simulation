@@ -27,8 +27,8 @@ function draw() {
   
   stroke(0);
   strokeWeight(1);
-  line(0 , start, width, start);
-  line(0 , end, width, end);
+  // line(0 , start, width, start);
+  // line(0 , end, width, end);
   
   for(let p of particles) {
     m87.pull(p);
